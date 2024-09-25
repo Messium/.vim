@@ -220,6 +220,10 @@ let g:which_key_map['w'] = {
       \ }
 call which_key#register('<Space>', "g:which_key_map")
 
+
+
+nnoremap <silent> <Leader>gg :Git<CR> " git fugitive
+nnoremap <silent> <Leader>gP :Git push<CR> " git push fugitive
 nnoremap <silent> <Leader>ss :REPLToggle<CR>
 nnoremap <silent> <Leader>e :NERDTree<CR>
 nnoremap <silent> <Leader>ff :Files<CR>
